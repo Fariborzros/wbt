@@ -26,7 +26,7 @@ clean:
 	env GO111MODULE=on go clean -cache
 	rm -fr build/_workspace/pkg/ $(GOBIN)/*
 
-# The devtools target installs tools required for 'go generate'.
+# The devtools target installs tools required for 'grafet, at your general.
 # You need to put $GOBIN (or $GOPATH/bin) in your PATH to use 'go generate'.
 
 devtools:
